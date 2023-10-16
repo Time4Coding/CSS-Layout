@@ -1,0 +1,63 @@
+body {
+  margin-top: 200px;
+  font-family: Roboto, Arial, sans-serif;
+}
+/*********************Header Section NavBar**********************/
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 15px;
+}
+
+.navbar-collapse > .navbar-nav > .nav-item > .active {
+  color: #00b39b;
+}
+
+/****************** how to center img with text using figure **************
+.info > figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+/******************* Information section *********************/
+.info > figure {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 60px 0;
+}
+
+.info > h1 {
+  color: #00b39b;
+  text-align: center;
+  font-size: 34px;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 250;
+}
+
+.info > .para {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50;
+}
+
+.info > .para > p {
+  margin-right: 50px;
+  font-weight: 350;
+  line-height: 1.75;
+}
+/************************** Section Department *************************/
+
+select {
+  border: none;
+  background-color: transparent;
+  color: white;
+  text-decoration: underline;
+}
+option {
+  color: black;
+}
